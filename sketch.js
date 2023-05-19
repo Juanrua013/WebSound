@@ -17,6 +17,6 @@ function setup () {
 
 function draw () {
   background(0);
-  circle(100, 100);
+  ellipse(56, 46, 55, 55);
   song.setVolume(slider.value());  
 }
